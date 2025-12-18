@@ -114,7 +114,7 @@ begin
       begin
         writeln('Data Ditemukan!');
         writeln('Nama        : ', mhs[i].nama);
-        writeln('Nilai Akhir : ', mhs[i].na:3:1);
+        writeln('Nilai Akhir : ', mhs[i].na:6:1);
         writeln('Grade       : ', mhs[i].grade);
         ketemu := true;
       end;
